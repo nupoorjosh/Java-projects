@@ -1,2 +1,2 @@
-# KjSCE_Academic_Assessment_project
+# KJSCE_Academic_Assessment_project
 Java : Android Programming
