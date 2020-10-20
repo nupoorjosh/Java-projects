@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:layout_margin="12dp"
+            android:text=" Q How did you get my current semester and field?
+ \n* From your Roll Number :-)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:layout_margin="12dp"
+            android:text="Q How and what the CGPI?
+ \n* According to your current semester all your subjects and credits assigned to them will be loaded.
+ \n* You can input different marks and play around."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:layout_margin="12dp"
+            android:text="Q What is ScoreBetter?
+ \n* As we know that a certain range of marks are treated the same, we should know at what marks we can achieve the next multiplier.
+ \n* Also refer to an example provided on ScoreBetter page"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:layout_margin="12dp"
+        android:text=" Q4 Determining your Personality Trait?
+ \n* The performance of students is highly affected by their personality traits.
+ \n* In order to predict results with high accuracy, we have recorded your mobile phone activity which has been mapped to Five Factor Model in order to determine your personality trait.
+ \n* On successful determination of your personality traits, the mathematical prediction values are modified using the variation factor depending upon your personality traits!"
+                />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:layout_margin="12dp"
+            android:text="Q What are the Five Factors?
+ \n* Openness
+\n      This trait features characteristics such as imagination and insight, and those high in this trait also tend to have a broad range of interests. People who are high in this trait tend to be more adventurous and creative. People low in this trait are often much more traditional and may struggle with abstract thinking.
+ \n\n* Conscientiousness
+\n      Standard features of this dimension include high levels of thoughtfulness, with good impulse control and goal-directed behaviors. Highly conscientiousness tend to be organized and mindful of details.
+ \n\n* Extraversion
+\n      Extraversion is characterized by excitability, sociability, talkativeness, assertiveness, and high amounts of emotional expressiveness.
+
+People who are high in extraversion are outgoing and tend to gain energy in social situations. People who are low in extraversion (or introverted) tend to be more reserved and have to expend energy in social settings.
+ \n\n* Agreeableness
+\n      This personality dimension includes attributes such as trust, altruism, kindness, affection, and other prosocial behaviors. People who are high in agreeableness tend to be more cooperative while those low in this trait tend to be more competitive and even manipulative.
+ \n\n* Neuroticism
+\n      Neuroticism is a trait characterized by sadness, moodiness, and emotional instability. Individuals who are high in this trait tend to experience mood swings, anxiety, irritability and sadness. Those low in this trait tend to be more stable and emotionally resilient."/>
+    </LinearLayout>
+</ScrollView>

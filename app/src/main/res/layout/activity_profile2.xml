@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="0dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/but1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Back"
+            android:background="#3f51b5"
+            android:textColor="#ffffff"
+            android:onClick="back"/>
+
+        <Button
+            android:id="@+id/but2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Academic records"
+            android:layout_weight="1"
+            android:background="#3f51b5"
+            android:textColor="#ffffff"
+            android:onClick="profile1"/>
+        <Button
+            android:id="@+id/but3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Personality traits"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:background="#3f51b5"
+            android:textColor="#ffffff"
+            />
+        <!--
+        <Button
+            android:id="@+id/but4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="news"
+            android:layout_weight="1"
+            android:background="#3f51b5"
+            android:textColor="#ffffff"
+            />
+            -->
+        <Button
+            android:id="@+id/but5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="score"
+            android:layout_weight="1"
+            android:background="#3f51b5"
+            android:textColor="#ffffff"
+            android:onClick="score"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="OPenness"/>
+        <Button
+            android:id="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="conscientious"/>
+        <Button
+            android:id="@+id/t3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Extraversion"/>
+        <Button
+            android:id="@+id/t4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Agreeable"/>
+        <Button
+            android:id="@+id/t5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Neuroticism"/>
+        <Button
+            android:id="@+id/t6"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Help"
+            android:onClick="help"
+            android:background="#3f51b5"
+            android:textColor="#ffffff"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3">
+    </LinearLayout>
+</LinearLayout>

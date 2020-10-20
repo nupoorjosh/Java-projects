@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="0dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/but1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#3f51b5"
+            android:onClick="cgpi"
+            android:text="CGPI"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/but2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="score better"
+            android:layout_weight="1"
+            android:background="#3f51b5"
+            android:textColor="#ffffff"
+            android:onClick="scorebetter"/>
+        <Button
+            android:id="@+id/but3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="trends"
+            android:layout_weight="1"
+            android:background="#3f51b5"
+            android:textColor="#ffffff"
+            android:onClick="trends"/>
+        <!--
+        <Button
+            android:id="@+id/but4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="news"
+            android:layout_weight="1"
+            android:background="#3f51b5"
+            android:textColor="#ffffff"
+            android:onClick="news"/>
+            -->
+        <Button
+            android:id="@+id/but5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Prediction"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:background="#3f51b5"
+            android:textColor="#ffffff"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Roll No"
+                android:textSize="20sp"
+                android:layout_marginRight="20dp"
+                />
+            <EditText
+                android:id="@+id/rno123"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:editable="false"
+                android:hint=""/>
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sem3 :"
+                android:textSize="16sp"
+                />
+            <EditText
+                android:id="@+id/sem3cgpi"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sem4 :"
+                android:textSize="16sp"
+                />
+
+            <EditText
+                android:id="@+id/sem4cgpi"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sem5 :"
+                android:textSize="16sp"
+
+                />
+
+            <EditText
+                android:id="@+id/sem5cgpi"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sem6 :"
+                android:textSize="16sp"
+                />
+            <EditText
+                android:id="@+id/sem6cgpi"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sem7 :"
+                android:textSize="16sp"
+                />
+
+            <EditText
+                android:id="@+id/sem7cgpi"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                />
+            <!--
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:layout_margin="16dp"
+
+                android:hint="SEM 6"/>
+            -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:gravity="center">
+            <!--
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="Change"
+                android:id="@+id/marks"
+                android:onClick="changemarks"
+                android:background="#3f51b5"
+                android:textColor="#ffffff"
+                android:layout_margin="1dp"
+                />
+            -->
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="GO ON"
+                android:id="@+id/here"
+                android:background="#3f51b5"
+                android:textColor="#ffffff"
+                android:layout_margin="1dp"
+                android:onClick="changemarks"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="Profile"
+                android:id="@+id/profile"
+                android:background="#3f51b5"
+                android:textColor="#ffffff"
+                android:layout_margin="1dp"
+                android:onClick="profiletab"
+                />
+
+
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="Reset"
+                android:id="@+id/reset3"
+                android:onClick="reset3"
+                android:background="#3f51b5"
+                android:textColor="#ffffff"
+                android:layout_margin="1dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:background="#3f51b5"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+
+            android:text="Predicted Score for Your Current Semeter is "/>
+        <EditText
+            android:id="@+id/predict"
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:editable="false"
+            android:hint=""/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_red_dark"
+            android:onClick="gohome"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
